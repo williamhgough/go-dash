@@ -1,0 +1,11 @@
+development:
+  dialect: "sqlite3"
+  database: {{env "GOPATH" }}/github.com/williamhgough/go-dash/go-dash_development.sqlite
+
+test:
+  dialect: "sqlite3"
+  database: {{env "GOPATH" }}/github.com/williamhgough/go-dash/go-dash_test.sqlite
+
+production:
+  dialect: "sqlite3"
+  database: {{env "GOPATH" }}/github.com/williamhgough/go-dash/go-dash_production.sqlite

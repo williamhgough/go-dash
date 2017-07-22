@@ -1,0 +1,15 @@
+@import 'css/App.scss';
+@import '../node_modules/react-md/src/scss/react-md';
+
+$md-light-theme: false;
+$md-primary-color: $md-blue-500;
+$md-secondary-color: $md-teal-a-700;
+
+@include react-md-everything;
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
